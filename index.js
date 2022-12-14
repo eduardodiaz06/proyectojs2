@@ -32,7 +32,7 @@ function buscarPorductos() {
         return element.nombre == buscador;
     })
     if (buscarProducto) {
-        console.table(buscarProducto)
+        console.log(buscarProducto)
     } else alert("producto no encontrado")
 }
 
